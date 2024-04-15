@@ -1,0 +1,36 @@
+.front-view {
+  background-image: url(./images/chocolate-one.jpeg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.brand-name,
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  color: aliceblue;
+  font-style: italic;
+}
+.brand-name {
+  font-size: 55px;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
+.bio {
+  font-size: 25px;
+  font-family: "Sedan", serif;
+  font-weight: 400;
+}
+.about {
+  text-align: center;
+  padding-top: 20px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+}
