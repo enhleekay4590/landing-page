@@ -5,6 +5,9 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+.navbar {
+  background-color: brown;
+}
 
 .brand-name,
 .bio {
@@ -33,4 +36,15 @@
 .info {
   display: flex;
   flex-direction: column;
+}
+.chef {
+  border-radius: 8px;
+  width: 400px;
+  height: 250px;
+  margin-left: 20px;
+}
+
+.ingredient {
+  background-color: rgba(243, 197, 98, 0.925);
+  padding: 14px 14px;
 }
