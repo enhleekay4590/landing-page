@@ -27,13 +27,19 @@
       href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <title>Chocolate Landing Page</title>
   </head>
   <body>
     <header class="front-view">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Bite-Bilss</a>
+          <a class="navbar-brand navbar-dark" href="#">Bite-Bilss</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -47,10 +53,12 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link navbar-dark" aria-current="page" href="#"
+                >Home</a
+              >
               <a class="nav-link" href="#">About</a>
               <a class="nav-link" href="#">Flavour</a>
-              <a class="nav-link disabled" aria-disabled="true">Contact</a>
+              <a class="nav-link" href="#">Contact</a>
             </div>
           </div>
         </div>
@@ -61,7 +69,7 @@
       </h2>
     </header>
     <section>
-      <h1 class="about">About us</h1>
+      <h1 class="about">----About us----</h1>
       <div class="container mt-5">
         <div class="row">
           <div class="col-md">
@@ -87,12 +95,41 @@
         </div>
       </div>
     </section>
-    <div class="container">
+    <h1 class="products">----Special Product----</h1>
+    <div class="container mt-5 flavour">
       <div class="row">
-        <div class="col-3"></div>
-        <div class="col-3"></div>
-        <div class="col-3"></div>
-        <div class="col-3"></div>
+        <div class="col-3">
+          <img
+            src="src/images/openart-image_8dqn7zG6_1713042859970_raw.png"
+            class="img-fluid images"
+          />
+          <br />
+          <p class="description">Dark Chocolate</p>
+        </div>
+        <div class="col-3">
+          <img
+            src="src/images/openart-image_Sl4OjY8v_1713043786436_raw.png"
+            class="img-fluid images"
+          />
+          <br />
+          <p class="description">Ruby Chocolate</p>
+        </div>
+        <div class="col-3">
+          <img
+            src="src/images/openart-image_coq9_gVz_1713043725509_raw.png"
+            class="img-fluid images"
+          />
+          <br />
+          <p class="description">Milky Chocolate</p>
+        </div>
+        <div class="col-3">
+          <img
+            src="src/images/c5374eac-d3aa-4723-b35a-283bb1526132.png"
+            class="img-fluid images"
+          />
+          <br />
+          <p class="description">White Chocolate</p>
+        </div>
       </div>
     </div>
   </body>
